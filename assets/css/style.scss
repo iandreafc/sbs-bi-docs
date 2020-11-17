@@ -10,9 +10,13 @@
   background-color: #deebf7;
   position: fixed; /* Set the navbar to fixed position */
   top: 0; /* Position the navbar at the top of the page */
-  width: 100%; /* Full width */
+  
   font-weight: 700;
-  text-align: center;
+  
+  /*width: 100%;  Full width */
+  max-width: 1012px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 /* Links inside the navbar */
@@ -33,5 +37,5 @@
 
 /*Per non far sovrapporre la navbar*/
 .container-lg {
-  margin-top: 30px;
+  margin-top: 100px;
 }
