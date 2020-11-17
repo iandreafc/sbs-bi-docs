@@ -1,0 +1,15 @@
+# Site navigation links
+- title: Home
+  url: /
+
+- title: Fetch
+  url: /fetch/
+
+- title: Input
+  url: /upload/
+
+- title: Parameters
+  url: /param/
+
+- title: Analysis and Results
+  url: /analysis/
