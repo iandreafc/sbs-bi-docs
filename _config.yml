@@ -1,5 +1,9 @@
 # Setup
 title: SBS BI Documentation
-tagline: Documentation of the Semantic Brand Score Brand Intelligence App.
+description: Documentation of the Semantic Brand Score Brand Intelligence App.
 url: https://docs.semanticbrandscore.com
 locale: en_US
+
+sidebar:
+  title: "Sample Title"
+  nav: docs
