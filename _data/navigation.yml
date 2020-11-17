@@ -1,15 +1,17 @@
-# Site navigation links
+docs_list_title: SBS BI Docs
+docs:
+
 - title: Home
-  url: /
+  url: index.html
 
 - title: Fetch
-  url: /fetch/
+  url: fetch.html
 
 - title: Input
-  url: /upload/
-
+  url: upload.html
+  
 - title: Parameters
-  url: /param/
-
-- title: Analysis and Results
-  url: /analysis/
+  url: param.html
+  
+- title: Analysis
+  url: analysis.html
