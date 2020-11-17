@@ -3,7 +3,7 @@ layout: page
 title: Input
 ---
 
-## File Upload
+# File Upload
 The app can analyze any textual data, uploaded as a **CSV** file with the following characteristics:
 
 - Has **no header**.

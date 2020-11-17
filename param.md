@@ -3,7 +3,7 @@ layout: page
 title: Parameters
 ---
 
-## Generate Parameters
+# SBS Parameters
 Specifying the correct parameters is essential to the app functioning and the correct run of the analysis. In the *Generate* tab, you will find mandatory basic settings and optional advanced settings.
 
 #### Basic Settings
