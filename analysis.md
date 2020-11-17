@@ -1,3 +1,8 @@
+---
+layout: page
+title: Analysis and Results
+---
+
 # Analysis and Results
 ### SBS Run
 
