@@ -3,3 +3,6 @@ title: SBS BI Documentation
 description: Documentation of the Semantic Brand Score Brand Intelligence App.
 url: https://docs.semanticbrandscore.com
 locale: en_US
+
+plugins:
+  - jekyll-sitemap
