@@ -5,6 +5,11 @@
 
 
 /* The navigation bar */
+.navdiv {
+  margin-right: auto;
+  margin-left: auto;
+}
+
 .navbar {
   overflow: hidden;
   background-color: #deebf7;
@@ -13,10 +18,8 @@
   
   font-weight: 700;
   
-  /*width: 100%;  Full width */
-  max-width: 1012px;
-  margin-right: auto;
-  margin-left: auto;
+  width: 100%;  /*Full width */
+
 }
 
 /* Links inside the navbar */
