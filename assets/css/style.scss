@@ -5,11 +5,6 @@
 
 
 /* The navigation bar */
-.navdiv {
-  margin-right: auto;
-  margin-left: auto;
-}
-
 .navbar {
   overflow: hidden;
   background-color: #deebf7;
@@ -36,9 +31,4 @@
 .navbar a:hover {
   background: #0366d6;
   color: #fff;
-}
-
-/*Per non far sovrapporre la navbar*/
-.container-lg {
-  margin-top: 100px;
 }
