@@ -11,10 +11,10 @@
   <body>
 	  <div class="container-lg px-3 my-5 markdown-body">
 	  
-		<h2>{{ site.data.navigation.docs_list_title }}</h2>
+		<!--<h2>{{ site.data.navigation.docs_list_title }}</h2>-->
 		<ul>
 		   {% for item in site.data.navigation.docs %}
-			  <li><a href="{{ item.url }}">{{ item.title }}</a></li>
+			  <li style="display:inline;"><a href="{{ item.url }}">{{ item.title }}</a></li>
 		   {% endfor %}
 		</ul>
   
