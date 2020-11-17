@@ -1,3 +1,8 @@
+---
+layout: page
+title: Fetch
+---
+
 # Content Fetching
 The app has several tools for content fetching, from social media and other sources.
 

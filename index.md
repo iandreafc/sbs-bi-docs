@@ -1,3 +1,8 @@
+---
+layout: page
+title: Home
+---
+
 # SBS BI Documentation
 
 The SBS BI web app was designed to analyze (big) textual data, in order to calculate the <a href="https://semanticbrandscore.com" target="_blank">**Semantic Brand Score**</a> and produce a wide set of **brand intelligence analytics**.
@@ -11,7 +16,7 @@ The SBS BI web app was designed to analyze (big) textual data, in order to calcu
 
 The most typical app flow diagram is presented here:
 
-![Flow](https://semanticbrandscore.com/wp-content/uploads/diagram.png){: style="width:600px"}
+![Flow](images/diagram.png){: style="width:600px"}
 
 ## App Demo
 Available at <a href="https://bi.semanticbrandscore.com" target="_blank">**bi.semanticbrandscore.com**</a>.<br> 

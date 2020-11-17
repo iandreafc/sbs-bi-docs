@@ -1,3 +1,8 @@
+---
+layout: page
+title: Input
+---
+
 ## File Upload
 The app can analyze any textual data, uploaded as a **CSV** file with the following characteristics:
 
