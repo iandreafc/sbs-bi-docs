@@ -37,7 +37,7 @@
   text-decoration: none;
 }
 
-.navbar span {
+.navbar a.head {
   float: left;
   display: block;
   color: #777;
@@ -47,11 +47,10 @@
 }
 
 /* Change background on mouse-over */
-.navbar a:hover {
+.navbar a:hover:not(.head) {
   background: #0366d6;
   color: #fff;
 }
-
 
 /* Hide the link that should open and close the navbar on small screens */
 .navbar .icon {
