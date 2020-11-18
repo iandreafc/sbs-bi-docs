@@ -7,12 +7,16 @@
 
 {% seo %}
     <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
+	
+	<!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
   </head>
   <body>
 		
-	  <div class="container-lg px-3 my-5">
+	  <div class="center">
 	  
-	  <div class="navbar">
+	  <div class="navbar" id="myTopnav">
 	  <span>SBS BI Docs</span>
 	  <a href="index.html">Home</a>
 	  <a href="fetch.html">Fetch</a>
@@ -20,6 +24,10 @@
 	  <a href="param.html">Parameters</a>
 	  <a href="analysis.html">Analysis</a>
 	  <a href="https://semanticbrandscore.com" target="_blank">SBS</a>
+	  
+	  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+		<i class="fa fa-bars"></i>
+	  </a>
 	  </div>
 		
 	  </div>
@@ -31,7 +39,19 @@
         <a href="https://www.iubenda.com/privacy-policy/93911762" target="_blank">Privacy Policy</a> - <a href="cookies.html" target="_blank">Cookie Policy</a>
       </div>
     </div>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.1.0/anchor.min.js" integrity="sha256-lZaRhKri35AyJSypXXs4o6OPFTbTmUoltBbDCbdzegg=" crossorigin="anonymous"></script>
+	
+	<script>
+    /* Toggle between adding and removing the "responsive" class to navbar when the user clicks on the icon */
+	function myFunction() {
+	  var x = document.getElementById("myTopnav");
+	  if (x.className === "navbar") {
+		x.className += " responsive";
+	  } else {
+		x.className = "navbar";
+	  }
+	} </script>
+	
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.1.0/anchor.min.js" integrity="sha256-lZaRhKri35AyJSypXXs4o6OPFTbTmUoltBbDCbdzegg=" crossorigin="anonymous"></script>
     <script>anchors.add();</script>
     {% if site.google_analytics %}
     <script>
