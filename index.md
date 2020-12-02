@@ -12,7 +12,8 @@ The SBS BI web app was designed to analyze (big) textual data, in order to calcu
 - [**Fetch**](fetch.md): collect textual data from multiple sources, such as Twitter or EventRegistry.
 - [**Input**](upload.md): upload the corpus that will be analyzed (can be any textual data) and validate it.
 - [**Parameters**](param.md): set the parameters for the analysis.
-- [**Analysis and Reports**](analysis.md): run the analysis and obtain results and reports.
+- [**Analysis**](analysis.md): run the analysis and obtain results and reports.
+- [**Extra**](extra.md): run additional analyses that complement the main reports.
 
 The most typical app flow diagram is presented here:
 

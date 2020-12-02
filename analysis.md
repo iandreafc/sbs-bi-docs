@@ -1,10 +1,12 @@
 ---
 layout: page
-title: Analysis and Results
+title: Analysis
 ---
 
-# Analysis and Results
-### SBS Run
+# Analysis
+These are the main analyses and reports produced by the software.
+
+## SBS Run
 
 This will calculate the Semantic Brand Score and generate graphical reports, according to the uploaded text file and the chosen parameters.
 
@@ -15,12 +17,6 @@ This will calculate the Semantic Brand Score and generate graphical reports, acc
 
 ### Interpretation of reports
 For a comprehensive description of graphs and a full example, please read <a href="https://arxiv.org/ftp/arxiv/papers/2001/2001.11479.pdf" target="_blank">this paper</a>.
-
-## Keywords
-
-This function can be used to find keywords in the uploaded text file (the algorithm is based on TF-IDF). The function will analyze all documents, regardless of their date.
-
-Please specify the **CSV separator**, the **maximum number of keywords**, the **language** of the analysis (for stemming) and the **percentage of text to analyze**. A value of 1, for this last field, means that the full text will be analyzed; lower values indicate a lower percentage of text to analyze (e.g. 0.5 = the initial 50% of each document).
 
 ## Saved Reports
 
