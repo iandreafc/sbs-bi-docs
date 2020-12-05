@@ -22,14 +22,14 @@ The module allows the calculation of some additional textual and semantic metric
 Basic textual metrics are calculated in every run (such us the number of types and tokens, for each document). In addition, you can choose to carry out these other analyses:
 
 - `Complexity`: calculates the language complexity of each document. The function provides several metrics: the number of words of six or more letters (absolute and relative frequencies) and 3 other complexity scores calculated by using the TF-IDF function and taking into account the word frequency distribution.
-- `Crovitz`: calculates the absolute and relative frequencies of the [Crovitz's relational words](https://doi.org/10.1007/s11135-020-01038-x). Relative scores can vary from 0 to 100.
-- `Emotions`: calculates several dimensions of the language used (such as the degree of positive and negative emotions, or the language orientation towards past or future). Scores can vary from 0 to 100.
+- `Crovitz`: calculates the relative frequencies of the [Crovitz's relational words](https://doi.org/10.1007/s11135-020-01038-x) that appear in each text. Scores can vary from 0 to 100.
+- `Emotions`: calculates several dimensions of the language used (such as the degree of positive and negative emotions, or the language orientation towards past or future). Scores are relative to the word count and can vary from 0 to 100.
 - `Sentiment`: calculates the average language sentiment of each document. Scores can vary from -1 to 1, where positive values indicate a positive sentiment.
 
 ### Parameters
 
 - `Csv separator`: specifies the separator used in the CSV file. Insert a single character without quoting.
-- `Percentage text to analyze`: used when the analysis has to consider only a portion of each text document, for example just the title and lead of an online news. A value of 1 means that the full text will be analyzed, lower values indicate a lower percentage of text to analyze (e.g. 0.5 = the initial 50% of each document).
+- `Percentage of text to analyze`: used when the analysis has to consider only a portion of each text document, for example just the title and lead of an online news. A value of 1 means that the full text will be analyzed, lower values indicate a lower percentage of text to analyze (e.g. 0.5 = the initial 50% of each document).
 - `Language`: this is the language of uploaded texts (please be consistent and try to analyze one language at a time). 
 - `Choose one or more analyses`: select the kind of analysis you want to carry out.
 
