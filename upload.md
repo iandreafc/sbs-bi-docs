@@ -22,6 +22,8 @@ This function is used to validate the uploaded CSV file and verify that there ar
 - optionally choose to **validate weights** placed in the third column of the uploaded file.
 - optionally choose to automatically **removed lines with errors**. Please **be careful**, as this will change the uploaded file.
 
+Please note that this function is only intended to validate the file before the SBS analysis.
+
 ## Past Results Upload
 <span style="color:#900C3F">**This function is only visible to advanced users.**</span>
 

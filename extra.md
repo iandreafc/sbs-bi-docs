@@ -12,6 +12,12 @@ This function can be used to find keywords in the uploaded text file (the algori
 
 Please specify the **CSV separator**, the **maximum number of keywords**, the **language** of the analysis (for stemming) and the **percentage of text to analyze**. A value of 1, for this last field, means that the full text will be analyzed; lower values indicate a lower percentage of text to analyze (e.g. 0.5 = the initial 50% of each document).
 
+## Word Cloud
+
+This function can be used to generate a word cloud, based on a list of keywords and weights.
+
+Please upload a single **CSV file** (utf-8 format), with two columns - the first containing words and the second one weights. The first row (header) will be ignored. Through the form you will be able to choose the **shape** and **color** of the word clous, as well as the **maximum number of words** to show.
+
 ## Text Analysis
 <span style="color:#900C3F">**This function is only visible to advanced users.**</span>
 
