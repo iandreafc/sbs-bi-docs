@@ -15,7 +15,9 @@ Specifying the correct parameters is essential to the app functioning and the co
 - `Brand list`: it is the list of *brands* to be analyzed (can be any word, such as the name of a product, or of a person). You have to list the brands without quotes, separating them with a comma.
 - `Language`: this is the language of uploaded texts (please be consistent and try to analyze one language at a time). This setting will be used for the calculation of sentiment, for stemming/lemmatization and for the removal of stopwords.
 - `Min co-occurrence frequency`: textual co-occurrences that are below this threshold will be filtered out. Must be an integer bigger or equal to 1 (1 means no filtering). This value can have a strong impact on the computation time (higher values, faster analysis).  The calculation of co-occurrences depends on the time periods specified for the analysis.
-- `Generate topic models `: if checked, topic modeling will be performed and added to the graphical report. It can be resource intensive.
+- `Generate topic models `: if set to "yes" topic modeling will be performed and added to the graphical report. It can be resource intensive. The "yes and only" option allows to simplify the process and only carry out a topic modeling, without calculating the SBS and producing its related reports. In the case of a "yes and only" choice:
+  - no time intervals will be considered (all text documents with a date between `Start time` and `End time` will be used);
+  - please ignore the `Link fiter adjustment for topics` parameter and consider the `Min co-occurrence frequency` instead. Value is usually higher than that of an analysis carried out on time intervals.
 - `Send email at the end`: if checked, the system will send an email when the analysis ends.
 
 #### Advanced Settings
