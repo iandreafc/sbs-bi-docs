@@ -39,7 +39,6 @@ Specifying the correct parameters is essential to the app functioning and the co
 - `Link fiter adjustment for topics`: this is a parameter similar to that of `Min co-occurrence frequency` and it is used to remove low-weight links prior to topic modeling. Please consider that the topic modeling is carried out on the whole dataset (networks are not split by period of analysis). Set this parameter to 1, or increase it to filter out more links. We usually recommend values between 0.75 and 1.25.
 - `Generate Graphs`: if checked, the system will produce the graphical report, as a result of the analysis.
 - `Save parameters`: choosing a name will save the parameters and they could be imported in the future. 
-- `Skip text pre-processing`: use this if you have uploaded an input file that has already been pre-processed. Please be very careful as you might get errors, if the raw input has not been correctly processed. 
 
 To save a configuration click on *Generate Parameters File*. Please note that in case of errors the configuration will not be saved.
 
