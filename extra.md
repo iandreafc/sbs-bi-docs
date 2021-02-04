@@ -29,7 +29,10 @@ This module allows a in-depth analysis of the "SBS_associations.csv" file, produ
 Basic textual metrics are calculated in every run (such us the number of types and tokens, for each document). In addition, you can choose to carry out these other analyses:
 
 - Please upload the "SBS_associations.csv" file previously produced by the SBS analysis, without changing it (encoding must always be utf8).
+
 - `Dimensions`: this field can be used to specify custom dimensions for the analysis of brand image. We use a dictionary to represent each dimension. The following syntax has to be used `"dimension_name1":["word1","word2",..], "dimension_name2":["word6","word8",..],..`. It is possible to repeat the same word in different dimensions. Please use the lowercase. The dimension name will not be considered as a word for the analysis.
+
+  Additionally, asterisks can be used at the end of words, indicating that a specific word could be completed with any possible set of characters. For example, if the word `"asp*"` is used, this will match both the words `"aspirin"` and `"aspire"`.
 
 ### Output
 
@@ -68,7 +71,12 @@ Basic textual metrics are calculated in every run (such us the number of types a
 #### Optional parameters
 
 - `Brand list`: use this field if you also want to check for the presence of *brand* in the documents and then average the general results by brand. A brand can be any word, such as the name of a product, or of a person. You have to list the brands without quotes, separating them with a comma.
-- `Cluster brands`: sometimes it is useful to merge multiple words that represent a *brand*. Each *brand/concept* could be represented by a set of keywords. If this is the case, you can use the *cluster brands* field to specify the words to merge. For example we may want to have a single node for the word "pope" and the word "francis". The following syntax has to be used `"cluster1":["word1","word2",..], "cluster2":["word6","word8",..],..`. Words have to be unique and the same word cannot appear in multiple clusters.
+
+- `Cluster brands`: sometimes it is useful to merge multiple words that represent a *brand*. Each *brand/concept* could be represented by a set of keywords. If this is the case, you can use the *cluster brands* field to specify the words to merge. For example we may want to have a single node for the word "pope" and the word "francis". The following syntax has to be used `"cluster1":["word1","word2",..], "cluster2":["word6","word8",..],..`. The same word cannot appear in multiple clusters.
+
+  Additionally, asterisks can be used at the end of words, indicating that a specific word could be completed with any possible set of characters. For example, if the word `"asp*"` is used, this will match both the words `"aspirin"` and `"aspire"`.
+
 - `Time unit` and `Time intervals`: use this field if you also want to average results by time intervals.
+
 - `Start time` and `End time`: these are the start and end time of the analysis, for the time interval averages.
 
