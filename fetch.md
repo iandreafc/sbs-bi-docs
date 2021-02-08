@@ -108,4 +108,4 @@ Event Registry is a system that allows real-time collection of content published
 >
 > #### Output
 >
-> A CSV file where the char "|" is used as separator.
+> A CSV file where the vertical bar is used as separator.
