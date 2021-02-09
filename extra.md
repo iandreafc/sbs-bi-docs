@@ -57,9 +57,9 @@ The module allows the calculation of some additional textual and semantic metric
 Basic textual metrics are calculated in every run (such us the number of types and tokens, for each document). In addition, you can choose to carry out these other analyses:
 
 - `Complexity`: calculates the language complexity of each document. The function provides several metrics: the number of words of six or more letters (absolute and relative frequencies), the average word length and 3 other complexity scores calculated by using the TF-IDF function and taking into account the word frequency distribution.
-- `Crovitz`: calculates the relative frequencies of the [Crovitz's relational words](https://doi.org/10.1007/s11135-020-01038-x) that appear in each text. Scores can vary from 0 to 100.
-- `Emotions`: calculates several dimensions of the language used (such as the degree of positive and negative emotions, or the language orientation towards past or future). Scores are relative to the word count and can vary from 0 to 100.
 - `Sentiment`: calculates the average language sentiment of each document. Scores can vary from -1 to 1, where positive values indicate a positive sentiment.
+- `Emotions`: calculates several dimensions of the language used (such as the degree of positive and negative emotions, or the language orientation towards past or future). Scores are the relative word count and can vary from 0 to 100.
+- `Crovitz`: calculates the relative frequencies of the [Crovitz's relational words](https://doi.org/10.1007/s11135-020-01038-x) that appear in each text. Scores can vary from 0 to 100.
 
 ### Parameters
 
