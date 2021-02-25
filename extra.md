@@ -77,8 +77,8 @@ Basic textual metrics are calculated at every run (such us counting the number o
 - `Analyses`: similarly to the Text Analysis function, you could choose to analyze the brand associations considering:
 
   - `Complexity`: calculates the language complexity. The function provides several metrics: the number of words of six or more letters (absolute and relative frequencies), the average word length and 3 other complexity scores calculated by using the TF-IDF function and taking into account the word frequency distribution.
-  - `Emotions`: calculates several dimensions of the language used (such as the degree of positive and negative emotions, or the language orientation towards past or future). 
-  - `Crovitz`: calculates the frequencies of the [Crovitz's relational words](https://doi.org/10.1007/s11135-020-01038-x). 
+  - `Emotions`: calculates several dimensions of the language used (such as the degree of positive and negative emotions, or the language orientation towards past or future).  Some dimensions might result empty, especially if you removed stop-words during the SBS analysis that produced the associations file.
+  - `Crovitz`: calculates the frequencies of the [Crovitz's relational words](https://doi.org/10.1007/s11135-020-01038-x). Some dimensions might result empty, especially if you removed stop-words during the SBS analysis that produced the associations file.
 
 Sentiment is not an option here, as it is already calculated for each brand (and time interval) by the main SBS analysis (which has been used to produce the SBS_associations.csv file).
 
