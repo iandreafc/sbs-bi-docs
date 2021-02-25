@@ -25,10 +25,16 @@ The app can be used to fetch tweets through the <a href="https://developer.twitt
 >
 > A CSV file where the comma is used as separator.
 
+------
+
 ## Telpress
+
 Researchers and companies can request access to this news portal directly contacting <a href="http://www.telpress.com/" target="_blank">**Telpress International**</a>. The company collects online and offline news from all over the world, with a special focus on Italy. Files are downloaded in a format ready for the SBS BI app.
 
+------
+
 ## Event Registry
+
 Event Registry is a system that allows real-time collection of content published by global news outlets. The SBS BI app uses the Event Registry APIs to allow the search and dowload of global news. The main parameters are described here:
 
 > #### API Key

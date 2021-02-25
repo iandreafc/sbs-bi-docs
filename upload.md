@@ -15,6 +15,8 @@ The app can analyze any textual data, uploaded as a **CSV** file with the follow
 
 You can analyze only one file at a time. The uploader will retain only the last uploaded CSV file, deleting the others.
 
+------
+
 ## Validation
 This function is used to validate the uploaded CSV file and verify that there are no errors. Please:
 
@@ -24,8 +26,10 @@ This function is used to validate the uploaded CSV file and verify that there ar
 
 Please note that this function is only intended to validate the file before the SBS analysis.
 
+------
+
 ## Past Results Upload
-<span style="color:#900C3F">**This function is only visible to advanced users.**</span>
+<span style="color:#900C3F">**This function is only available to advanced users.**</span>
 
 This function can be used to **merge the results** of different past analyses and produce a **unified report**. For example, youd could merge analyses carried out considering the same set of brands, but different timeframes.
 In order to successfully merge results of past analyses, you have to:
