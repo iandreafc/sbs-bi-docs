@@ -25,7 +25,7 @@ Specifying the correct parameters is essential to the app functioning and the co
 
 - `Cluster brands`: sometimes it is useful to merge multiple words that represent a *brand*. Each *brand/concept* could be represented by a set of keywords. If this is the case, you can use the *cluster brands* field to specify the words to merge. For example we may want to have a single node for the word "pope" and the word "francis". The following syntax has to be used `"cluster1":["word1","word2",..], "cluster2":["word6","word8",..],..`. The same word cannot appear in multiple clusters.
 
-  Additionally, asterisks can be used at the end of words, indicating that a specific word could be completed with any possible set of characters. For example, if the word `"asp*"` is used, this will match both the words `"aspirin"` and `"aspire"`.
+  Additionally, asterisks can be used at the end of words, indicating that a specific word could be completed with any possible set of characters. For example, if the word `"asp*"` is used, this will match both the words `"aspirin"` and `"aspire"`. This also works with multiple words, for example `"financial sect*"` will match the words `"financial sector"`.
 
 - `Custom stopwords`: can be used to specify custom stopwords, i.e. words that will be ignored during the analysis. Custom stopwords have to be listed without quotes and separated by a comma.
 

@@ -50,7 +50,7 @@ Basic textual metrics are calculated at every run (such us the number of types a
 
 - `Cluster brands`: sometimes it is useful to merge multiple words that represent a *brand*. Each *brand/concept* could be represented by a set of keywords. If this is the case, you can use the *cluster brands* field to specify the words to merge. For example we may want to have a single node for the word "pope" and the word "francis". The following syntax has to be used `"cluster1":["word1","word2",..], "cluster2":["word6","word8",..],..`. The same word cannot appear in multiple clusters.
 
-  Additionally, asterisks can be used at the end of words, indicating that a specific word could be completed with any possible set of characters. For example, if the word `"asp*"` is used, this will match both the words `"aspirin"` and `"aspire"`.
+  Additionally, asterisks can be used at the end of words, indicating that a specific word could be completed with any possible set of characters. For example, if the word `"asp*"` is used, this will match both the words `"aspirin"` and `"aspire"`. This also works with multiple words, for example `"financial sect*"` will match the words `"financial sector"`.
 
 - `Time unit` and `Time intervals`: use this field if you also want to average results by time intervals.
 
@@ -70,7 +70,7 @@ Basic textual metrics are calculated at every run (such us counting the number o
 
 - `Dimensions`: this field can be used to specify custom dimensions for the analysis of brand image. We use a dictionary to represent each dimension. The following syntax has to be used `"dimension_name1":["word1","word2",..], "dimension_name2":["word6","word8",..],..`. It is possible to repeat the same word in different dimensions. Please use the lowercase. The dimension name will not be considered as a word for the analysis.
 
-  Additionally, asterisks can be used at the end of words, indicating that a specific word could be completed with any possible set of characters. For example, if the word `"asp*"` is used, this will match both the words `"aspirin"` and `"aspire"`.
+  Additionally, asterisks can be used at the end of words, indicating that a specific word could be completed with any possible set of characters. For example, if the word `"asp*"` is used, this will match both the words `"aspirin"` and `"aspire"`. This also works with multiple words, for example `"financial sect*"` will match the words `"financial sector"`.
 
 - `Language`: this is the language used for the analyses described in the following.
 
