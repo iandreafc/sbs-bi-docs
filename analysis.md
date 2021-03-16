@@ -16,7 +16,7 @@ This will calculate the Semantic Brand Score and generate graphical reports, acc
 - Please note that **some graphs** (such as the topic modeling network) are **only visible online**.
 
 ### Interpretation of reports
-For a comprehensive description of graphs and a full example, please read <a href="https://arxiv.org/ftp/arxiv/papers/2001/2001.11479.pdf" target="_blank">this paper</a> or you could watch the videos on this [YouTube channel](https://www.youtube.com/watch?v=CYvKdTgDJTU&list=PL_zqgcr1hn7TAOr0BfX93HXkZThVYeuL0&index=2). 
+For a comprehensive description of graphs and a full example, please read <a href="https://arxiv.org/ftp/arxiv/papers/2001/2001.11479.pdf" target="_blank">this paper</a> or you could watch the videos on this <a href="https://www.youtube.com/watch?v=CYvKdTgDJTU&list=PL_zqgcr1hn7TAOr0BfX93HXkZThVYeuL0&index=2" target="_blank">YouTube channel</a>. 
 
 The reports of the main SBS analysis are briefly described in the following:
 
