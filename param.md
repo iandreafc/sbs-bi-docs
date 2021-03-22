@@ -27,7 +27,7 @@ Specifying the correct parameters is essential to the app functioning and the co
 
   Additionally, asterisks can be used at the end of words, indicating that a specific word could be completed with any possible set of characters. For example, if the word `"asp*"` is used, this will match both the words `"aspirin"` and `"aspire"`. This also works with multiple words, for example `"financial sect*"` will match the words `"financial sector"`.
 
-- `Custom stopwords`: can be used to specify custom stopwords, i.e. words that will be ignored during the analysis. Custom stopwords have to be listed without quotes and separated by a comma.
+- `Custom stopwords`: can be used to specify custom stopwords, i.e. words that will be ignored during the analysis. Custom stopwords are listed separated by a comma. Quotes can be used to specify multiple words (e.g., "formula 1").
 
 - `Use different languages for stopwords`: sometimes it is necessary to remove stopwords from multiple dictionaries (languages). This field is also helpful when the language of the uploaded text is not available for the parameter `Language`. Use the `SKIP` option in case you do not wish to remove stopwords (you can still remove custom stopwords).
 
