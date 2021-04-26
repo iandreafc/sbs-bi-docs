@@ -16,7 +16,8 @@ The app can be used to fetch tweets through the <a href="https://developer.twitt
 - The **search query** can be specified by using Twitter <a href="https://developer.twitter.com/en/docs/tweets/rules-and-filtering/overview/standard-operators" target="_blank">**standard operators**</a>, an example is `(happy AND hour) OR #freedrinks`. Please do not specify the language in this query. The corresponding search results can be visualized on <a href="https://search.twitter.com" target="_blank">**search.twitter.com**</a> (this is a recommended step before starting the fetcher).
 - **Language** is used to specify the language of tweets.
 - The **maximum number of tweets** has to be specified to avoid exceeding the API limits.
-- **Wait if rate limit reached** tells the system to wait and continue the query after sufficient time has passed and API limits are restored. **Please avoid using this in combination with a high number set for the maximum number of tweets**.
+- **Start** and **End Time** fields can be used to limit the time interval for downloading tweets. Please be aware of the Twitter API limits. Start Time only works with premium API. These fields are required, even when not used.
+- The **premium** checkbox can be selected to use premium APIs for a *full archive search* - please refer to Twitter [documentation](https://developer.twitter.com/en/docs).
 
 > #### Run
 > Starts the fetcher and collects the tweets that match the search query. Tweets can be downloaded and subsequently uploaded in the app for the analysis. In case of errors, the fetcher can also be **stopped**.
