@@ -110,7 +110,34 @@ Event Registry is a system that allows real-time collection of content published
   }
   ```
 
+or using `"keywordSearchMode": "exact"`:
+
+```python
+{
+ "$query": {
+  "$and": [
+       {
+            "keyword": "((home OR house) AND (energy OR heathing)) OR (radiator)",
+            "keywordSearchMode": "exact"
+       },
+
+       {
+            "dateStart": "2020-11-09",
+            "dateEnd": "2021-05-04",
+            "lang": "ita"
+       }
+
+  	]
+  },
+ "$filter": {
+  "startSourceRankPercentile": 0,
+  "endSourceRankPercentile": 100
+ }
+}
+```
+
 > #### Run
+>
 > Starts the fetcher and collects the articles that match the search query. Articles can be downloaded and subsequently uploaded in the app for the analysis. In case of errors, the fetcher can also be **stopped**.
 >
 > #### Output
