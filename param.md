@@ -39,8 +39,6 @@ Specifying the correct parameters is essential to the app functioning and the co
 
 - `Percentage of text to analyze`: used when the analysis has to consider only a portion of each text document, for example just the title and lead of an online news. A value of 1 means that the full text will be analyzed, lower values indicate a lower percentage of text to analyze (e.g. 0.5 = the initial 50% of each document).
 
-- `Min doc lenght`: excludes the text documents with a number of characters below this threshold.
-
 - `Word co-occurrence range`: indicates the range of the maximum distance between words, to determine a co-occurrence. Values of 5 or 7 are usually good and results are often robust with respect to this parameter, when the values are within a reasonable range (2 to 20). 
 
 - `Distinctiveness centrality alpha`: is the value of the alpha coefficient used to calculate Distinctiveness Centrality and therefore Diversity. Can be any number >= 1. Setting a value of 1 is recommended.

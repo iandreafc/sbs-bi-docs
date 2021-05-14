@@ -20,7 +20,7 @@ You can analyze only one file at a time. The uploader will retain only the last 
 ## Validation
 This function is used to validate the uploaded CSV file and verify that there are no errors. Please:
 
-- specify the **CSV separator**;
+- specify the **CSV separator** and the **minimum length** of documents (has to be at least 3 characters);
 - optionally choose to **validate weights** placed in the third column of the uploaded file;
 - optionally choose to automatically **remove lines with errors**. Please **be careful**, as this will change the uploaded file;
 - optionally choose to **remove all text documents (file rows) that contain** one or more words listed in the field named **prohibited words**.
